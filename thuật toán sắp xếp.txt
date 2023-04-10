@@ -1,0 +1,11 @@
+*interchange sort : thuật toán đổi chỗ trực tiếp
+    for(int i=0;i<=n-2;i++)
+       for(int j=i+1;j<=n-1;j++)
+           if(a[i]>a[j])
+               swap (a[i];a[j]);  ---> thuật toán sắp xếp tăng dần (3,2,1,4)
+                 b1 3>2 đổi chỗ 3,2 được 2,3,1,4  a[0] > a[1]
+                 b2 2>1 đổi chỗ 2,1 được 1,3,2,4  a[0] > a[2] .....
+*selection sort : thuật toán tìm giá trị nhỏ nhất trong đoạn rồi đổi chỗ giá trị nhỏ nhất đó với giá trị đầu đoạn (sắp xếp tăng)
+    min=a[0];
+    for(int i=0;i<n;i++)
+       if(
